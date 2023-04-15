@@ -75,6 +75,7 @@ button {
     border-color: rgb(83, 38, 38);
 }
 
+
 .infos img {
     width: 200px;
     height: 200px;
@@ -98,4 +99,28 @@ button {
     flex-wrap: wrap;
     padding: 50px;
     font-size: 18px;
+}
+
+.quote-bar {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    margin: 0;
+    flex: 1;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    max-width: 60rem
+}
+
+.author {
+    font-weight: bolder;
+    font-size: 28px;
 }
