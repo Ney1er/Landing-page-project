@@ -5,7 +5,7 @@ body {
     font-family: Roboto, sans-serif;
   }
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,11 +13,10 @@ body {
 }
 
 .header-logo {
-    font-size: 24px;
-    color: #f9faf8;
     display: flex;
-    font-weight: bold;
     padding: 20px;
+    width: 80px;
+    height: 100px;
 }
 
 .links ul {
@@ -33,12 +32,12 @@ body {
     color: #e5e7eb;
 }
 
-.hero img {
+main img {
     max-width: 500px;
     height: 350px;
 }
 
-.hero {
+main {
     padding: 125px;
     display: flex;
     background-color: #1F2937;
@@ -76,7 +75,7 @@ button {
 }
 
 
-.infos img {
+section img {
     width: 200px;
     height: 200px;
     border-style: solid;
@@ -101,7 +100,7 @@ button {
     font-size: 18px;
 }
 
-.quote-bar {
+.quote-sec {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
@@ -117,10 +116,11 @@ button {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
-    max-width: 60rem
+    max-width: 60rem;
 }
 
 .author {
     font-weight: bolder;
     font-size: 28px;
+    margin-left: 25em;
 }
