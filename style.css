@@ -1,15 +1,18 @@
 body {
-    height: 100vh;
     margin: 0;
     /* overflow: hidden; */
     font-family: Roboto, sans-serif;
   }
 
+header, footer{
+    background-color: #1F2937;
+}
+
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #1F2937;
+    gap: 100px;
 }
 
 .header-logo {
@@ -41,8 +44,10 @@ main {
     padding: 125px;
     display: flex;
     background-color: #1F2937;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    height: 10rem;
+    gap: 100px;
 }
 
 
@@ -123,4 +128,59 @@ section img {
     font-weight: bolder;
     font-size: 28px;
     margin-left: 25em;
+}
+
+.sign-up {
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+
+#call-to-act{
+    font-weight: bolder;
+    font-size: 26px;
+    
+}
+.text {
+    color: white;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.container #button-2 {
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: lighter;
 }
